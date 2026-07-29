@@ -1,0 +1,29 @@
+# === Credenziali e configurazioni sensibili ===
+# Non caricare mai file con password del database, host, o stringhe di connessione
+*.env
+.env
+.env.*
+*.pgpass
+.pgpass
+config.local.*
+secrets.*
+
+# === File di sistema operativo ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Dump/backup temporanei del database ===
+*.dump
+*.bak
+*.tmp
+
+# === Log ===
+*.log
